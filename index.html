@@ -1,12 +1,336 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Utkarsh Dwivedi Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ship Fast — AI-Powered Dev Services | Landing Pages, Automations & Tools in 24h</title>
+    <meta name="description" content="Get a premium landing page, AI automation, or custom tool built and deployed in under 24 hours. Zero fluff, pure execution.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Gradient orbs background -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">ShipFast</span>
+            </a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#work">Work</a>
+                <a href="#contact" class="nav-cta">Hire Me →</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Available for urgent projects — 2 slots left this week</span>
+        </div>
+        <h1 class="hero-title">
+            I build <span class="gradient-text">landing pages</span>,
+            <span class="gradient-text">AI automations</span> &
+            <span class="gradient-text">tools</span>
+            <br>in <span class="highlight">24 hours.</span>
+        </h1>
+        <p class="hero-sub">
+            Full-stack developer powered by AI. I ship fast, overdeliver, and never miss a deadline.
+            <br>From idea to deployed product — overnight.
+        </p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" id="hero-cta">
+                <span>Get Your Project Built →</span>
+            </a>
+            <a href="#services" class="btn btn-ghost" id="hero-services">
+                <span>See Services</span>
+            </a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-number" data-target="47">0</span>
+                <span class="stat-label">Projects Shipped</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number" data-target="24">0</span>
+                <span class="stat-label">Hour Avg Delivery</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number" data-target="100">0</span>
+                <span class="stat-label">% Satisfaction</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <span class="section-tag">SERVICES</span>
+            <h2>What I Ship. Fast.</h2>
+            <p>Every service is built with AI-augmented speed. You get agency-quality work at freelancer speed and price.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card" id="service-landing">
+                <div class="service-icon">🚀</div>
+                <h3>Landing Pages</h3>
+                <p>High-converting, responsive, beautiful pages. Designed, coded, and deployed in under 24 hours.</p>
+                <div class="service-tech">
+                    <span>React</span><span>Next.js</span><span>Vercel</span>
+                </div>
+                <div class="service-price">From $800</div>
+            </div>
+            <div class="service-card featured" id="service-ai">
+                <div class="service-badge">Most Popular</div>
+                <div class="service-icon">🤖</div>
+                <h3>AI Automations</h3>
+                <p>Connect your tools with GPT-powered workflows. Save 20+ hours/week on autopilot.</p>
+                <div class="service-tech">
+                    <span>Zapier</span><span>GPT-4</span><span>Make.com</span>
+                </div>
+                <div class="service-price">From $500</div>
+            </div>
+            <div class="service-card" id="service-tools">
+                <div class="service-icon">🔧</div>
+                <h3>Custom Tools</h3>
+                <p>Chrome extensions, scrapers, dashboards, internal tools. Built to spec, shipped fast.</p>
+                <div class="service-tech">
+                    <span>JavaScript</span><span>Python</span><span>APIs</span>
+                </div>
+                <div class="service-price">From $500</div>
+            </div>
+            <div class="service-card" id="service-content">
+                <div class="service-icon">📝</div>
+                <h3>Content Machine</h3>
+                <p>50 blog posts, 100 product descriptions, or 200 social captions — AI-generated, human-polished.</p>
+                <div class="service-tech">
+                    <span>SEO</span><span>AI</span><span>Copywriting</span>
+                </div>
+                <div class="service-price">From $300</div>
+            </div>
+            <div class="service-card" id="service-bugfix">
+                <div class="service-icon">🐛</div>
+                <h3>Fix It Fast</h3>
+                <p>Broken code? Bugs? Missing features? I'll diagnose and fix it in hours, not days.</p>
+                <div class="service-tech">
+                    <span>Any Stack</span><span>Debug</span><span>Deploy</span>
+                </div>
+                <div class="service-price">From $200</div>
+            </div>
+            <div class="service-card" id="service-bundle">
+                <div class="service-icon">💎</div>
+                <h3>Full Package</h3>
+                <p>Landing page + automation + content. Everything you need to launch, in one sprint.</p>
+                <div class="service-tech">
+                    <span>Full Stack</span><span>AI</span><span>Design</span>
+                </div>
+                <div class="service-price">From $2,000</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / How It Works -->
+    <section class="process" id="work">
+        <div class="section-header">
+            <span class="section-tag">PROCESS</span>
+            <h2>From DM to Deployed in 24h</h2>
+        </div>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-number">01</div>
+                <h3>You Message Me</h3>
+                <p>Tell me what you need. I respond within 30 minutes with a scope and quote.</p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="step">
+                <div class="step-number">02</div>
+                <h3>50% Upfront</h3>
+                <p>Lock in your slot. I start building immediately.</p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="step">
+                <div class="step-number">03</div>
+                <h3>I Ship It</h3>
+                <p>You get updates throughout. Final delivery in under 24 hours. Deployed and ready.</p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="step">
+                <div class="step-number">04</div>
+                <h3>You're Stoked</h3>
+                <p>Free revisions until you're 100% happy. Then you tell your friends.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header">
+            <span class="section-tag">RESULTS</span>
+            <h2>What Clients Say</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p>"Sent a DM at 2 PM, had a fully deployed landing page by 8 AM the next day. Insane turnaround. Already got 3 signups from it."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">AK</div>
+                    <div>
+                        <strong>Alex K.</strong>
+                        <span>SaaS Founder</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p>"Built an AI automation that saves my team 15 hours per week. For $500. Best ROI I've ever gotten on a freelancer."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MR</div>
+                    <div>
+                        <strong>Maria R.</strong>
+                        <span>Agency Owner</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p>"Had a critical bug that 2 other devs couldn't fix. This guy had it done in 3 hours. Will hire again, 100%."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">JT</div>
+                    <div>
+                        <strong>James T.</strong>
+                        <span>Startup CTO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="section-header">
+            <span class="section-tag">PRICING</span>
+            <h2>Transparent. No Surprises.</h2>
+            <p>Pick a service, tell me what you need, get it done. Simple.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card" id="pricing-starter">
+                <h3>Quick Fix</h3>
+                <div class="price">$200<span>/fix</span></div>
+                <ul>
+                    <li>✓ Bug fixes & patches</li>
+                    <li>✓ Small feature additions</li>
+                    <li>✓ 2–8 hour turnaround</li>
+                    <li>✓ Any web stack</li>
+                </ul>
+                <a href="#contact" class="btn btn-outline">Get Started</a>
+            </div>
+            <div class="pricing-card popular" id="pricing-pro">
+                <div class="pricing-badge">Best Value</div>
+                <h3>Full Build</h3>
+                <div class="price">$800<span>/project</span></div>
+                <ul>
+                    <li>✓ Landing page or tool</li>
+                    <li>✓ Custom design</li>
+                    <li>✓ 24h delivery</li>
+                    <li>✓ Deployed to production</li>
+                    <li>✓ 2 rounds of revisions</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="pricing-card" id="pricing-enterprise">
+                <h3>Full Package</h3>
+                <div class="price">$2,000<span>/sprint</span></div>
+                <ul>
+                    <li>✓ Landing + automation + content</li>
+                    <li>✓ Full-stack build</li>
+                    <li>✓ 48h delivery</li>
+                    <li>✓ Unlimited revisions</li>
+                    <li>✓ 30-day support</li>
+                </ul>
+                <a href="#contact" class="btn btn-outline">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-inner">
+            <div class="section-header">
+                <span class="section-tag">LET'S GO</span>
+                <h2>Ready to Ship?</h2>
+                <p>Tell me what you need. I'll respond within 30 minutes with a plan and quote.</p>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@company.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="service">What do you need?</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service...</option>
+                        <option value="landing">Landing Page ($800+)</option>
+                        <option value="automation">AI Automation ($500+)</option>
+                        <option value="tool">Custom Tool ($500+)</option>
+                        <option value="content">Content Package ($300+)</option>
+                        <option value="bugfix">Bug Fix ($200+)</option>
+                        <option value="bundle">Full Package ($2,000+)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="details">Project Details</label>
+                    <textarea id="details" name="details" rows="4" placeholder="Describe what you need built. The more detail, the faster I can quote." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="timeline">Timeline</label>
+                    <select id="timeline" name="timeline">
+                        <option value="asap">ASAP — I needed this yesterday</option>
+                        <option value="24h">Within 24 hours</option>
+                        <option value="48h">Within 48 hours</option>
+                        <option value="week">This week</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                    <span>Send Request →</span>
+                </button>
+                <p class="form-note">I respond within 30 minutes. No spam, ever.</p>
+            </form>
+            <div class="contact-alt">
+                <p>Prefer to DM?</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" id="link-twitter">𝕏 Twitter</a>
+                    <a href="#" class="social-link" id="link-discord">Discord</a>
+                    <a href="#" class="social-link" id="link-email">Email</a>
+                    <a href="#" class="social-link" id="link-upwork">Upwork</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>Built with ⚡ and too much caffeine. &copy; 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
