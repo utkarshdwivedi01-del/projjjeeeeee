@@ -1,0 +1,38 @@
+{
+    "name": "Chair Pose (Utkatasana)",
+    "description": "Stand with feet together, knees bent as if sitting in a chair, arms raised overhead.",
+    "angles": {
+        "leftKnee": {
+            "min": 100,
+            "max": 140
+        },
+        "rightKnee": {
+            "min": 100,
+            "max": 140
+        },
+        "leftHip": {
+            "min": 100,
+            "max": 140
+        },
+        "rightHip": {
+            "min": 100,
+            "max": 140
+        },
+        "leftShoulder": {
+            "min": 155,
+            "max": 180
+        },
+        "rightShoulder": {
+            "min": 155,
+            "max": 180
+        },
+        "leftElbow": {
+            "min": 155,
+            "max": 180
+        },
+        "rightElbow": {
+            "min": 155,
+            "max": 180
+        }
+    }
+}

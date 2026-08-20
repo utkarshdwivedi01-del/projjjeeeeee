@@ -1,0 +1,38 @@
+{
+    "name": "T-Pose (Arms Out)",
+    "description": "Stand straight, arms extended horizontally at shoulder height — great for calibration.",
+    "angles": {
+        "leftShoulder": {
+            "min": 80,
+            "max": 100
+        },
+        "rightShoulder": {
+            "min": 80,
+            "max": 100
+        },
+        "leftElbow": {
+            "min": 160,
+            "max": 180
+        },
+        "rightElbow": {
+            "min": 160,
+            "max": 180
+        },
+        "leftKnee": {
+            "min": 165,
+            "max": 180
+        },
+        "rightKnee": {
+            "min": 165,
+            "max": 180
+        },
+        "leftHip": {
+            "min": 165,
+            "max": 180
+        },
+        "rightHip": {
+            "min": 165,
+            "max": 180
+        }
+    }
+}
